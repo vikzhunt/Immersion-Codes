@@ -1,7 +1,7 @@
 package Assignments.assgn1;
 
 public class SmallestDivisibleByN {
-    static long gcd(long a, long b){
+    public static long gcd(long a, long b){
 		if (a==0 || b==0) 
 		return 0; 
 		if (a==b) return a; 

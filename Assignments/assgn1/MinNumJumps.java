@@ -1,7 +1,7 @@
 package Assignments.assgn1;
 
 public class MinNumJumps {
-    static int minJumps(int[] a, int n){
+    public static int minJumps(int[] a, int n){
         int sp = a[0];
         int max=a[0],jp = 1;
         if(n==1) return 0;

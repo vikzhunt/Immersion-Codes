@@ -1,7 +1,7 @@
 package Assignments.assgn1;
 
 public class ReverseInteger {
-    public int reverse(int x){
+    public static int reverse(int x){
         int rv=0;
         while(x>0){
             int tp = x%10;
